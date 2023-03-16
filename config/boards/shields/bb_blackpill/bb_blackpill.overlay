@@ -15,7 +15,11 @@
 		label = "KSCAN";
 
 		input-gpios
-			= <&blackpill 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+			// Blackpill onboard user key button on pin 10
+			= <&blackpill 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+
+			// Switches connected directly to gpio pins
+			, <&blackpill 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
 			, <&blackpill 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
 			;
 

@@ -13,8 +13,12 @@
 
         default_layer {
             bindings = <
+                // Blackpill onboard user key button
                 &kp A
+
+                // Switches connected directly to gpio pins
                 &kp B
+                &kp C
             >;
         };
     };
