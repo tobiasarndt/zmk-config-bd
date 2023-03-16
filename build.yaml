@@ -14,4 +14,4 @@
 ---
 include:
   - board: blackpill_f411ce
-    shield: two_percent_milk
+    shield: bb_blackpill

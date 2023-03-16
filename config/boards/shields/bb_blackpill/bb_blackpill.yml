@@ -1,0 +1,7 @@
+file_format: "1"
+id: bb_blackpill
+name: BB Blackpill
+type: shield
+requires: [blackpill_f411ce]
+features:
+  - keys
