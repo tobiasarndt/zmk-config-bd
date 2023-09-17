@@ -13,5 +13,5 @@
 #
 ---
 include:
-  - board: blackpill_f401ce
+  - board: seeeduino_xiao_ble
     shield: bb_blackpill
