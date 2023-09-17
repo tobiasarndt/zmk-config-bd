@@ -5,8 +5,8 @@
     gpio_ps2: gpio_ps2 {
         compatible = "gpio-ps2";
         label = "gpio_ps2";
-        scl-gpios = <&blackpill 40 0>;
-        sda-gpios = <&blackpill 41 0>;
+        scl-gpios = <&xiao_d 10 0>;
+        sda-gpios = <&xiao_d 9 0>;
     };
 };
 
@@ -15,7 +15,7 @@
         compatible = "zmk,ps2-mouse";
         label = "ps2_mouse";
         ps2-device = <&gpio_ps2>;
-        rst-gpios = <&blackpill 42 0>;
+        rst-gpios = <&xiao_d 8 0>;
     };
 };
 
