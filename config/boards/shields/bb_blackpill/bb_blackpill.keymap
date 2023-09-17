@@ -19,6 +19,8 @@
                 // Switches connected directly to gpio pins
                 &kp B
                 &kp C
+                &kp D
+                &kp E
             >;
         };
     };
